@@ -87,7 +87,8 @@ const Image = styled.img`
   transition: transform 200ms;
   will-change: transform;
   
-  ${Link}:hover & {
+  ${Link}:hover &, 
+  ${Link}:focus & {
     transform: scale(1.1);
   }
 `;
