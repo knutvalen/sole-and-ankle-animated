@@ -4,7 +4,6 @@ import styled from 'styled-components/macro';
 import { WEIGHTS } from '../../constants';
 import { formatPrice, pluralize, isNewShoe } from '../../utils';
 import Spacer from '../Spacer';
-import {keyframes} from "styled-components";
 
 const ShoeCard = ({
   slug,
