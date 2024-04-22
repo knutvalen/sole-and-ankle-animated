@@ -37,7 +37,6 @@ const ShoeIndex = ({ sortId, setSortId }) => {
             </MobileBreadcrumbs>
             <Title>Running</Title>
           </div>
-
           <SortFilterWrapper>
             <Select
               label="Sort"
